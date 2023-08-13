@@ -25,7 +25,7 @@ Hello, this is me from another time.
 I am coming here to warn you that you must not forget to brush your teeth twice a day
 
 Note that in order to run the python file, do the following in the command line:
-python lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/upload_artifact.py \
+python upload_artifact.py \
               --input_file zen.txt \
               --artifact_name zen_of_python \
               --artifact_type text_file \

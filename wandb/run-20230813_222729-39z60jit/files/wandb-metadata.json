@@ -1,0 +1,51 @@
+{
+    "os": "macOS-13.4.1-x86_64-i386-64bit",
+    "python": "3.11.1",
+    "heartbeatAt": "2023-08-13T15:27:31.061771",
+    "startedAt": "2023-08-13T15:27:29.735457",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--input_file",
+        "zen.txt",
+        "--artifact_name",
+        "zen_of_python",
+        "--artifact_type",
+        "text_file",
+        "--artifact_description",
+        "20 aphorisms about writing good python code"
+    ],
+    "state": "running",
+    "program": "/Users/pasin/Codes/Python/mlops/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/upload_artifact.py",
+    "codePath": "lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/upload_artifact.py",
+    "git": {
+        "remote": "https://github.com/pasinsiri/MLOps.git",
+        "commit": "889e66782b0555eed7716876ec42bbdd3e3eb29d"
+    },
+    "email": "pasin_plp0206@hotmail.com",
+    "root": "/Users/pasin/Codes/Python/mlops",
+    "host": "Pasins-MacBook-Pro.local",
+    "username": "pasin",
+    "executable": "/Users/pasin/Codes/Python/mlops/env/bin/python3",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "total": 233.46913528442383,
+        "used": 8.44012451171875
+    },
+    "memory": {
+        "total": 8.0
+    }
+}
