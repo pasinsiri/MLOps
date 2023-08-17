@@ -156,7 +156,7 @@ cython_debug/
 keys
 
 # wandb running log
-*/wandb/*
+wandb
 
 # others
 .DS_Store
