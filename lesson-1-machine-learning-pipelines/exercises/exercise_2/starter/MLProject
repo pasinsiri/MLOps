@@ -23,4 +23,4 @@ entry_points:
       python download_data.py --file_url {file_url} \
                               --artifact_name {artifact_name} \
                               --artifact_type {artifact_type} \
-                              --artiact_description {artifact_description}
+                              --artifact_description {artifact_description}
