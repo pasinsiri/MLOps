@@ -159,7 +159,7 @@ keys
 wandb
 
 # mlflow running log
-*/mlruns/*
+mlruns
 
 # others
 .DS_Store
