@@ -161,6 +161,9 @@ wandb
 # mlflow running log
 mlruns
 
+# test files
+test.ipynb
+
 # others
 .DS_Store
 
