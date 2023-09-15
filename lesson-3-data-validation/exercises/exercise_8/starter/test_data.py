@@ -3,6 +3,10 @@ import wandb
 import pandas as pd
 import scipy.stats
 
+"""
+mlflow run .
+"""
+
 # This is global so all tests are collected under the same
 # run
 run = wandb.init(project="exercise_8", job_type="data_tests")
