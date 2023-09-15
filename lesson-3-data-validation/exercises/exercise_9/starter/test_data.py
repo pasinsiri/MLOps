@@ -8,7 +8,7 @@ mlflow run . -P reference_artifact="exercise_6/data_train.csv:latest" \
 
 # COMPLETE HERE: make this test accept the fixtures defined in the
 # conftest.py file (data and ks_alpha)
-def test_kolmogorov_smirnov(...):
+def test_kolmogorov_smirnov(data, ks_alpha):
 
     sample1, sample2 = data
 
