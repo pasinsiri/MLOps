@@ -8,6 +8,13 @@ import pandas as pd
 import wandb
 from sklearn.model_selection import train_test_split
 
+"""
+mlflow run . -P input_artifact="exercise_5/preprocessed_data.csv:latest" \
+             -P artifact_root="data" \
+             -P test_size=0.3 \
+             -P stratify="genre"
+"""
+
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)-15s %(message)s")
 logger = logging.getLogger()
@@ -33,7 +40,8 @@ def go(args):
 
     # USE train_test_split here to split df according to the provided args.test_size
     splits["train"], splits["test"] = train_test_split(
-        df, test_size=args.test_size, random_state=args.random_state, stratify=args.stratify
+        df, test_size=args.test_size, random_state=args.random_state, 
+        stratify=df[args.stratify] if args.stratify != 'null' else None
     )
 
     # Now we save the artifacts. We use a temporary directory so we do not leave
