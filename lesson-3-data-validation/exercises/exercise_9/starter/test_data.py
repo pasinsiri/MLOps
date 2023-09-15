@@ -1,5 +1,10 @@
 import scipy.stats
 
+"""
+mlflow run . -P reference_artifact="exercise_6/data_train.csv:latest" \
+        -P sample_artifact="exercise_6/data_test.csv:latest" \
+        -P ks_alpha=0.05
+"""
 
 # COMPLETE HERE: make this test accept the fixtures defined in the
 # conftest.py file (data and ks_alpha)
