@@ -4,9 +4,7 @@ import pandas as pd
 import scipy.stats
 
 """
-mlflow run . -P reference_artifact="exercise_6/data_train.csv:latest" \
-        -P sample_artifact="exercise_6/data_test.csv:latest" \
-        -P ks_alpha=0.05
+mlflow run .
 """
 
 # This is global so all tests are collected under the same
